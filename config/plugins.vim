@@ -34,7 +34,6 @@ Plug 'roman/golden-ratio'
 Plug 'vim-scripts/tinykeymap'
 
 " coding/editing
-Plug 'SirVer/ultisnips'                " textmate style snippets
 Plug 'honza/vim-snippets'              " the actual snippest themselves
 Plug 'tpope/vim-surround'              " add, change, delete surround text
 Plug 'w0rp/ale'
