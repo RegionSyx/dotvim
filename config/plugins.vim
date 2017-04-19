@@ -77,6 +77,7 @@ Plug 'bling/vim-airline'
 " misc
 Plug 'vim-scripts/openssl.vim'
 Plug 'Valloric/ListToggle'
+Plug 'jceb/vim-orgmode'
 
 call plug#end()
 
