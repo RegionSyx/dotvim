@@ -170,6 +170,11 @@ let g:pymode_lint = 0
 let g:pymode_rope = 0
 let g:pymode_options = 0
 
+" ### janko-m/vim-test {{{1
+"----------------------------------------------------------------------------"
+let test#strategy = "vimux"
+let test#python#runner = 'pytest'
+
 " ### FOOTER/MODELINE {{{1
 "----------------------------------------------------------------------------"
 " auto-reload this file when saving

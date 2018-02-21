@@ -53,9 +53,9 @@ set showmatch
 set matchtime=5
 
 " setup tabs for 4 spaces
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set shiftround
 set expandtab
 set noautoindent
@@ -100,6 +100,8 @@ endtry
 " automatically reload vimrc and gvimrc on save
 autocmd! bufwritepost vimrc source %
 autocmd! bufwritepost gvimrc source %
+
+autocmd FileType javascript set tabstop=2|set shiftwidth=2|set expandtab
 
 " load scripts
 source $VIMHOME/config/pluginsettings.vim      " plugin specific settings

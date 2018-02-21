@@ -1,6 +1,7 @@
 " VIM Base and Plugin Keybindings
 " Use `zR` to open all folds
 
+
 " ### REMAP ESCAPE KEY {{{1
 "----------------------------------------------------------------------------"
 inoremap fd <esc>
@@ -173,3 +174,16 @@ nmap <silent> <space>ag :GundoToggle<cr>
 autocmd! bufwritepost keybindings.vim source %
 
 " vim:foldmethod=marker
+
+
+" Easier split navigations
+" https://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally#easier-split-navigations
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Prompt for a command to run
+map <space>vp :VimuxPromptCommand<CR>
+" Run last command executed by VimuxRunCommand
+map <space>vl :VimuxRunLastCommand<CR>

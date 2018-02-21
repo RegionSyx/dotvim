@@ -74,10 +74,19 @@ Plug 'synic/synic.vim'
 " interface
 Plug 'bling/vim-airline'
 
+" tmux
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'benmills/vimux'
+Plug 'janko-m/vim-test'
+
 " misc
 Plug 'vim-scripts/openssl.vim'
 Plug 'Valloric/ListToggle'
 Plug 'jceb/vim-orgmode'
+Plug 'vimwiki/vimwiki'
+
+" FZF
+Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
